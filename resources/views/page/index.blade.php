@@ -9,6 +9,7 @@
     <p>{{$post -> author}}</p>
     <a href="{{route('postEdit', $post -> id)}}">UPDATE</a>
     <a href="{{route('postDelete', $post -> id)}}">DELETE</a>
+    <a href="{{route('postShow', $post -> id)}}">SHOW</a>
   </div>
 <?php endforeach; ?>
 
